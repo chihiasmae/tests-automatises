@@ -1,5 +1,6 @@
 **SIRH Automated tests**
 **Typescript Protractor**
-npm install 
+**Setup
+To run this project, install it locally using npm install**
 
 
