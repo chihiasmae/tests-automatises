@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="9" tests="56" time="1055.566">
+ <testsuite name="LeaveWithoutPay " timestamp="2020-09-01T21:07:01" hostname="localhost" time="115.721" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeaveWithoutPay " name="should  log In successfully " time="90.089" />
+  <testcase classname="LeaveWithoutPay " name="should make a leaveWithoutPay request successfully" time="15.294" />
+  <testcase classname="LeaveWithoutPay " name="should display the login page if they logOut " time="10.333" />
+ </testsuite>
+ <testsuite name="LeaveWithoutPay " timestamp="2020-09-01T21:08:57" hostname="localhost" time="50.933" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeaveWithoutPay " name="the manager should receive a notification of the request" time="22.418" />
+  <testcase classname="LeaveWithoutPay " name="should a leave request be accepted by the manager" time="18.01" />
+  <testcase classname="LeaveWithoutPay " name="should display the login page if they logOut " time="10.503" />
+ </testsuite>
+ <testsuite name="LeaveWithoutPay" timestamp="2020-09-01T21:09:48" hostname="localhost" time="53.436" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeaveWithoutPay" name="SRH should receive a notification of the validation  " time="24.051" />
+  <testcase classname="LeaveWithoutPay" name=" should a leave request to be accepted by the SRH " time="13.863" />
+  <testcase classname="LeaveWithoutPay" name="should display the login page if they logOut " time="15.52" />
+ </testsuite>
+ <testsuite name="LeaveBeareavement " timestamp="2020-09-01T21:10:41" hostname="localhost" time="86.16" errors="0" tests="4" skipped="0" disabled="0" failures="1">
+  <testcase classname="LeaveBeareavement " name="should  log In successfully " time="22.939" />
+  <testcase classname="LeaveBeareavement " name="should get an error when making a leaveDisease with more than 3 days " time="37.802" />
+  <testcase classname="LeaveBeareavement " name="should make a leaveDisease successfully with 3 days request " time="14.198">
+   <failure type="toEqual" message="Expected &apos;http://localhost:4200/pages/leave/leave-request/add&apos; to equal &apos;http://localhost:4200/pages/leave/leave-request/list&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\leaveRequest\leaveBereavement.e2e-spec.ts:81:35)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:108:15
+    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="LeaveBeareavement " name="should display the login page if they logOut " time="11.22" />
+ </testsuite>
+ <testsuite name="LeaveBereavement " timestamp="2020-09-01T21:12:07" hostname="localhost" time="36.872" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="LeaveBereavement " name="the manager should receive a notification of the bereavementRequest" time="20.738">
+   <failure type="toBeTruthy" message="Expected false to be truthy."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\leaveResponse\manager\leaveBereavement.e2e-spec.ts:46:63)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:108:15
+    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="LeaveBereavement " name="should display the login page if they logOut " time="16.132" />
+ </testsuite>
+ <testsuite name="LeaveBeareavement " timestamp="2020-09-01T21:12:44" hostname="localhost" time="61.331" errors="0" tests="3" skipped="0" disabled="0" failures="1">
+  <testcase classname="LeaveBeareavement " name="SRH should receive a notification of the validation  " time="34.785">
+   <failure type="toBeTruthy" message="Expected false to be truthy."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\leaveResponse\rh\leaveBereavement.e2e-spec.ts:41:64)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:108:15
+    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="LeaveBeareavement " name=" should a leave request to be accepted by the SRH " time="15.33" />
+  <testcase classname="LeaveBeareavement " name="should display the login page if they logOut " time="11.178" />
+ </testsuite>
+ <testsuite name="LeaveDisease " timestamp="2020-09-01T21:13:46" hostname="localhost" time="48.256" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeaveDisease " name="should  log In successfully " time="22.031" />
+  <testcase classname="LeaveDisease " name="should make a leaveDisease request successfully" time="15.896" />
+  <testcase classname="LeaveDisease " name="should display the login page if they logOut " time="10.326" />
+ </testsuite>
+ <testsuite name="LeaveDisease " timestamp="2020-09-01T21:14:34" hostname="localhost" time="31.936" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeaveDisease " name="the manager should receive a notification of the diseaseRequest" time="21.281" />
+  <testcase classname="LeaveDisease " name="should display the login page if they logOut " time="10.655" />
+ </testsuite>
+ <testsuite name="LeaveDisease " timestamp="2020-09-01T21:15:06" hostname="localhost" time="52.514" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeaveDisease " name="the SRH should receive a notification of the diseaseLeave request" time="23.01" />
+  <testcase classname="LeaveDisease " name="should a leave request be accepted by the srh" time="18.777" />
+  <testcase classname="LeaveDisease " name="should display the login page if they logOut " time="10.727" />
+ </testsuite>
+ <testsuite name="LeavePaid " timestamp="2020-09-01T21:15:58" hostname="localhost" time="47.324" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeavePaid " name="should  log In successfully " time="22.386" />
+  <testcase classname="LeavePaid " name="should make a leavePaid request successfully" time="14.634" />
+  <testcase classname="LeavePaid " name="should display the login page if they logOut " time="10.304" />
+ </testsuite>
+ <testsuite name="LeavePaid " timestamp="2020-09-01T21:16:46" hostname="localhost" time="57.752" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeavePaid " name="the manager should receive a notification of the request" time="28.427" />
+  <testcase classname="LeavePaid " name="should a leave request be accepted by the manager" time="18.54" />
+  <testcase classname="LeavePaid " name="should display the login page if they logOut " time="10.784" />
+ </testsuite>
+ <testsuite name="LeavePaid" timestamp="2020-09-01T21:17:43" hostname="localhost" time="53.761" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeavePaid" name="SRH should receive a notification of the validation  " time="22.173" />
+  <testcase classname="LeavePaid" name=" should a leave request to be accepted by the SRH " time="15.947" />
+  <testcase classname="LeavePaid" name="should display the login page if they logOut " time="15.64" />
+ </testsuite>
+ <testsuite name="LeaveMarriage " timestamp="2020-09-01T21:18:37" hostname="localhost" time="62.995" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeaveMarriage " name="should  log In successfully " time="21.849" />
+  <testcase classname="LeaveMarriage " name="should make a leaveMarriage with 4 days succesfully " time="25.398" />
+  <testcase classname="LeaveMarriage " name="should display the login page if they logOut " time="15.747" />
+ </testsuite>
+ <testsuite name="LeaveMarriage " timestamp="2020-09-01T21:19:40" hostname="localhost" time="40.941" errors="0" tests="3" skipped="0" disabled="0" failures="2">
+  <testcase classname="LeaveMarriage " name="the manager should receive a notification of the request" time="22.115">
+   <failure type="toBeTruthy" message="Expected false to be truthy."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\leaveResponse\manager\leaveMarriage.e2e-spec.ts:47:63)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:108:15
+    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="LeaveMarriage " name="should a leave request be accepted by the manager" time="7.937">
+   <failure type="exception" message="Failed: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .mat-option.ng-star-inserted)"><![CDATA[NoSuchElementError: Index out of bound. Trying to access element at index: 0, but there are only 0 elements that match locator By(css selector, .mat-option.ng-star-inserted)
+    at selenium_webdriver_1.promise.all.then (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:274:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\leaveResponse\manager\leaveMarriage.e2e-spec.ts:56:39)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:108:15
+    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("should a leave request be accepted by the manager") in control flow
+    at UserContext.<anonymous> (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\leaveResponse\manager\leaveMarriage.e2e-spec.ts:51:1)
+    at addSpecsToSuite (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\leaveResponse\manager\leaveMarriage.e2e-spec.ts:12:1)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Module.m._compile (C:\Users\dell\Desktop\New folder\tests-automatises\node_modules\ts-node\src\index.ts:422:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\dell\Desktop\New folder\tests-automatises\node_modules\ts-node\src\index.ts:425:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="LeaveMarriage " name="should display the login page if they logOut " time="10.886" />
+ </testsuite>
+ <testsuite name="LeaveMarriage " timestamp="2020-09-01T21:20:21" hostname="localhost" time="42.113" errors="0" tests="3" skipped="0" disabled="0" failures="2">
+  <testcase classname="LeaveMarriage " name="should  log In successfully " time="21.808" />
+  <testcase classname="LeaveMarriage " name="should display a notification to the user to get a justification " time="9.44">
+   <failure type="toBeTruthy" message="Expected false to be truthy."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\notifications\leaveMarriage.e2e-spec.ts:51:64)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:108:15
+    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, .badge.ng-star-inserted)"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, .badge.ng-star-inserted)
+    at elementArrayFinder.getWebElements.then (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\notifications\leaveMarriage.e2e-spec.ts:52:43)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:108:15
+    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("should display a notification to the user to get a justification ") in control flow
+    at UserContext.<anonymous> (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\notifications\leaveMarriage.e2e-spec.ts:48:3)
+    at addSpecsToSuite (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\notifications\leaveMarriage.e2e-spec.ts:9:1)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Module.m._compile (C:\Users\dell\Desktop\New folder\tests-automatises\node_modules\ts-node\src\index.ts:422:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Object.require.extensions.(anonymous function) [as .ts] (C:\Users\dell\Desktop\New folder\tests-automatises\node_modules\ts-node\src\index.ts:425:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="LeaveMarriage " name="should display the login page if they logOut " time="10.836" />
+ </testsuite>
+ <testsuite name="LeaveMarriage " timestamp="2020-09-01T21:21:03" hostname="localhost" time="51.213" errors="0" tests="3" skipped="0" disabled="0" failures="1">
+  <testcase classname="LeaveMarriage " name="the manager should receive a notification of the diseaseLeave request" time="21.891">
+   <failure type="toBeTruthy" message="Expected false to be truthy."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\leaveResponse\rh\leaveMarriage.e2e-spec.ts:42:63)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:108:15
+    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="LeaveMarriage " name="should a leave request be accepted by the srh" time="18.684" />
+  <testcase classname="LeaveMarriage " name="should display the login page if they logOut " time="10.586" />
+ </testsuite>
+ <testsuite name="LeaveBirth " timestamp="2020-09-01T21:21:55" hostname="localhost" time="69.258" errors="0" tests="4" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeaveBirth " name="should  log In successfully " time="21.233" />
+  <testcase classname="LeaveBirth " name="should make a leaveBirth succesfully " time="23.098" />
+  <testcase classname="LeaveBirth " name="should display a notification to the user to get a justification " time="14.339" />
+  <testcase classname="LeaveBirth " name="should display the login page if they logOut " time="10.585" />
+ </testsuite>
+ <testsuite name="LeaveBirth " timestamp="2020-09-01T21:23:04" hostname="localhost" time="37.369" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="LeaveBirth " name="the manager should receive a notification of the birthRequest" time="21.385">
+   <failure type="toBeTruthy" message="Expected false to be truthy."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\dell\Desktop\New folder\tests-automatises\e2e\specs\leave\leaveResponse\manager\leaveBirth.e2e-spec.ts:46:63)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:108:15
+    at new ManagedPromise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\dell\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="LeaveBirth " name="should display the login page if they logOut " time="15.941" />
+ </testsuite>
+ <testsuite name="LeaveBirth " timestamp="2020-09-01T21:23:41" hostname="localhost" time="55.681" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="LeaveBirth " name="SRH should receive a notification of the birthRequest  " time="27.737" />
+  <testcase classname="LeaveBirth " name=" should a leave request to be accepted by the SRH " time="13.571" />
+  <testcase classname="LeaveBirth " name="should display the login page if they logOut " time="14.371" />
+ </testsuite>
+</testsuites>
